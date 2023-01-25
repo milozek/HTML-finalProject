@@ -4,27 +4,27 @@
   box-sizing: border-box; }
 
 .index {
-  background: url(../../assets/img/4249454.jpg) no-repeat center center fixed;
+  background: url(../assets/img/4249454.jpg) no-repeat center center fixed;
   height: 100%;
   background-size: cover; }
 
 .challenge {
-  background: url(../../assets/img/verde-bs.jpeg) no-repeat center center fixed;
+  background: url(../assets/img/verde-bs.jpeg) no-repeat center center fixed;
   height: 100%;
   background-size: cover; }
 
 .your-nft {
-  background: url(../../assets/img/blue-bs.jpeg) no-repeat center center fixed;
+  background: url(../assets/img/blue-bs.jpeg) no-repeat center center fixed;
   height: 100%;
   background-size: cover; }
 
 .create-path {
-  background: url(../../assets/img/red-bs.jpeg) no-repeat center center fixed;
+  background: url(../assets/img/red-bs.jpeg) no-repeat center center fixed;
   height: 100%;
   background-size: cover; }
 
 .download {
-  background: url(../../assets/img/amarillo-bs.jpeg) no-repeat center center fixed;
+  background: url(../assets/img/amarillo-bs.jpeg) no-repeat center center fixed;
   height: 100%;
   background-size: cover; }
 

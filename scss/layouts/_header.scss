@@ -1,0 +1,27 @@
+header {
+  font-weight: bold;
+}
+.navbar-nav {
+  display: flex;
+  width: 95%;
+  height: 80px auto;
+  justify-content: space-between;
+  padding: 25px;
+  margin: 25px;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-radius: 25%;
+}
+.nav-item {
+  display: flex;
+  align-self: center;
+  text-align: center;
+}
+.metamask {
+  margin-top: 22px;
+  margin-left: 22px;
+  background-image: linear-gradient(
+    rgba(255, 68, 0, 0.527),
+    rgba(255, 242, 216, 0.527)
+  );
+  border-radius: 20%;
+}

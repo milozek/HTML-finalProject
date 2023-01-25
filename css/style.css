@@ -1,48 +1,43 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body,
-html {
-  height: 100%;
-}
+  box-sizing: border-box; }
 
 .index {
-  background: url(../assets/img/4249454.jpg) no-repeat center center fixed;
-  height: auto;
-  background-size: cover;
-  overflow: hidden;
-}
+  background: url(../../assets/img/4249454.jpg) no-repeat center center fixed;
+  height: 100%;
+  background-size: cover; }
+
 .challenge {
-  background: url(../assets/img/verde-bs.jpeg) no-repeat center center fixed;
-  height: auto;
-  background-size: cover;
-  overflow: hidden;
-}
+  background: url(../../assets/img/verde-bs.jpeg) no-repeat center center fixed;
+  height: 100%;
+  background-size: cover; }
+
 .your-nft {
-  background: url(../assets/img/blue-bs.jpeg) no-repeat center center fixed;
-  height: auto;
-  background-size: cover;
-  overflow: hidden;
-}
+  background: url(../../assets/img/blue-bs.jpeg) no-repeat center center fixed;
+  height: 100%;
+  background-size: cover; }
+
 .create-path {
-  background: url(../assets/img/red-bs.jpeg) no-repeat center center fixed;
-  height: auto;
-  background-size: cover;
-  overflow: hidden;
-}
+  background: url(../../assets/img/red-bs.jpeg) no-repeat center center fixed;
+  height: 100%;
+  background-size: cover; }
+
 .download {
-  background: url(../assets/img/amarillo-bs.jpeg) no-repeat center center fixed;
-  height: auto;
-  background-size: cover;
-  overflow: hidden;
-}
-/* Header inicia */
+  background: url(../../assets/img/amarillo-bs.jpeg) no-repeat center center fixed;
+  height: 100%;
+  background-size: cover; }
+
+ul {
+  list-style: none; }
+
+button {
+  border: none;
+  background-color: transparent; }
+
 header {
-  font-weight: bold;
-}
+  font-weight: bold; }
+
 .navbar-nav {
   display: flex;
   width: 95%;
@@ -51,61 +46,97 @@ header {
   padding: 25px;
   margin: 25px;
   background-color: rgba(255, 255, 255, 0.671);
-  border-radius: 25%;
-}
+  border-radius: 25%; }
+
 .nav-item {
   display: flex;
   align-self: center;
-  text-align: center;
-}
-/* Main Index page */
+  text-align: center; }
+
+.metamask {
+  margin-top: 22px;
+  margin-left: 22px;
+  background-image: linear-gradient(rgba(255, 68, 0, 0.527), rgba(255, 242, 216, 0.527));
+  border-radius: 20%; }
+
+/* Index page */
 .container-index {
-  height: 200px;
-}
+  height: 200px; }
+
 .main-index {
   display: flex;
   width: 90%;
   margin-left: 5%;
   justify-content: space-between;
   padding: 125px;
-  position: absolute;
-}
-.sargento {
-  margin-bottom: 100px;
-}
+  position: absolute; }
+
+.topia {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 70px;
+  padding-right: 50px;
+  color: aqua;
+  font-size: small; }
 
 .triangulo {
+  text-decoration: none;
   width: 0;
   height: 0;
   border-left: 4.688rem solid transparent;
   border-right: 4.688rem solid transparent;
-  border-bottom: 6.563rem solid rgba(0, 0, 0, 0.623);
-}
+  border-bottom: 6.563rem solid rgba(0, 0, 0, 0.575); }
+
 .triangulo:hover {
-  transform: scale(1.08);
-}
+  transition: 10s;
+  transform: scale(3, -3);
+  transition-delay: -1s; }
 
-@media (max-width: 730px) {
-  .main-index {
-    margin-top: 100px;
-    gap: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    padding: 0px;
-  }
-  .sargento {
-    margin: 0px;
-  }
-}
-/* Main Challenge page */
+.centered {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column; }
 
-h1 {
-  color: aliceblue;
+.sargento {
+  margin-bottom: 50px; }
+
+.hide {
+  display: none;
   text-align: center;
-  font-size: large;
-}
+  background-color: rgba(128, 128, 128, 0.548);
+  border: rgba(177, 32, 32, 0.2); }
+
+.sargento:hover {
+  background-color: orange;
+  border-radius: 50%; }
+
+.sargento:hover + .hide {
+  display: block; }
+
+/* Challenge page */
+h1 {
+  text-align: center;
+  color: azure; }
+
+h2 {
+  color: whitesmoke;
+  text-align: center; }
+
+h3 {
+  text-align: center;
+  color: antiquewhite;
+  font-style: oblique; }
+
+h4 {
+  color: aqua;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+
 .rectangle {
   background-color: rgba(250, 235, 215, 0.281);
   display: flex;
@@ -115,67 +146,104 @@ h1 {
   max-width: 300px;
   margin: auto;
   margin-top: 50px;
-}
+  padding: 2%;
+  border-radius: 5%; }
 
 .grids {
-  align-items: center;
   margin: auto;
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(2, 1fr);
-}
+  grid-template-columns: repeat(2, 1fr); }
 
-button {
-  border: none;
+.topia-cards {
   height: 75px;
   width: 75px;
   border-radius: 50%;
   cursor: pointer;
   z-index: 1;
-  justify-self: center;
-}
+  justify-self: center; }
+
 .card-img {
   height: 75px;
   width: 75px;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
-button:hover {
+.topia-cards:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-  -webkit-animation: rotate-vert-center 0.5s
-    cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
-  animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
-    both;
-}
+  -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation-delay: 0.3s; }
 
 @-webkit-keyframes rotate-vert-center {
   0% {
     -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
+    transform: rotateY(0); }
   100% {
     -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-  }
-}
+    transform: rotateY(360deg); } }
+
 @keyframes rotate-vert-center {
   0% {
     -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-  }
+    transform: rotateY(0); }
   100% {
     -webkit-transform: rotateY(360deg);
-    transform: rotateY(360deg);
-  }
-}
-/* Footer inicia */
-footer {
-  width: 90%;
-  margin-top: 250px;
-  margin-left: 5%;
+    transform: rotateY(360deg); } }
+
+.rectangle-nft {
   display: flex;
-  position: relative;
-}
+  flex-direction: column;
+  width: 100%;
+  margin-top: 50px;
+  padding: 2%; }
+
+.grids-nft {
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr); }
+
+.nft-cards {
+  background: linear-gradient(rgba(255, 255, 255, 0.644), rgba(0, 255, 255, 0.329));
+  height: 150px;
+  width: 100px; }
+
+.nft-cards:hover {
+  transition: 5s;
+  box-shadow: inset 0 0 100px 100px #b8f5f7; }
+
+.form-path {
+  display: flex;
+  flex-direction: column; }
+
+.write-path {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  margin-top: 40px; }
+
+.submit {
+  width: 75px;
+  background-color: beige;
+  padding: 10px;
+  border-radius: 10%;
+  align-self: center; }
+
+.dl-flex {
+  display: flex;
+  justify-content: center; }
+
+.download-button {
+  padding: 25px; }
+
+footer {
+  margin-top: 150px;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  position: relative; }
+
 .contact {
   width: 100%;
   margin-top: 200px;
@@ -186,27 +254,17 @@ footer {
   justify-content: center;
   border-radius: 20%;
   background-color: rgba(250, 235, 215, 0.673);
-  font-size: small;
-}
+  font-size: small; }
 
 .rank {
   width: 100%;
-  margin-bottom: 240px;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  align-content: center;
-  justify-content: center;
-}
-@media (max-width: 580px) {
-  .rank {
-    display: none;
-  }
-}
+  justify-content: center; }
+
 .rank-2:hover {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .social-media {
   width: 100%;
@@ -217,8 +275,23 @@ footer {
   align-content: flex-end;
   justify-content: center;
   background-color: rgba(250, 235, 215, 0.673);
-  border-radius: 20%;
-}
+  border-radius: 20%; }
+
 .footer-challenge {
-  margin-top: auto;
-}
+  margin-top: auto; }
+
+@media (max-width: 730px) {
+  .main-index {
+    margin-top: 100px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 0px; }
+  .sargento {
+    margin: 0px; } }
+
+@media (max-width: 580px) {
+  .rank {
+    display: none; } }

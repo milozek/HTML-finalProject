@@ -1,0 +1,32 @@
+// @import "../utilities/variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.index {
+  @include bg(index);
+}
+.challenge {
+  @include bg(challenge);
+}
+.your-nft {
+  @include bg(nft);
+}
+.create-path {
+  @include bg(path);
+}
+.download {
+  @include bg(download);
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}

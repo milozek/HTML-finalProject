@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.index {
+  background: url(../assets/img/4249454.jpg) no-repeat center center fixed;
+  height: auto;
+  background-size: cover;
+  overflow: hidden;
+}
+.challenge {
+  background: url(../assets/img/verde-bs.jpeg) no-repeat center center fixed;
+  height: auto;
+  background-size: cover;
+  overflow: hidden;
+}
+.your-nft {
+  background: url(../assets/img/blue-bs.jpeg) no-repeat center center fixed;
+  height: auto;
+  background-size: cover;
+  overflow: hidden;
+}
+.create-path {
+  background: url(../assets/img/red-bs.jpeg) no-repeat center center fixed;
+  height: auto;
+  background-size: cover;
+  overflow: hidden;
+}
+.download {
+  background: url(../assets/img/amarillo-bs.jpeg) no-repeat center center fixed;
+  height: auto;
+  background-size: cover;
+  overflow: hidden;
+}
+/* Header inicia */
+header {
+  font-weight: bold;
+}
+.navbar-nav {
+  display: flex;
+  width: 95%;
+  height: 80px auto;
+  justify-content: space-between;
+  padding: 25px;
+  margin: 25px;
+  background-color: rgba(255, 255, 255, 0.671);
+  border-radius: 25%;
+}
+.nav-item {
+  display: flex;
+  align-self: center;
+  text-align: center;
+}
+.metamask {
+  margin-top: 22px;
+  margin-left: 22px;
+  background-image: linear-gradient(
+    rgba(255, 68, 0, 0.527),
+    rgba(255, 242, 216, 0.527)
+  );
+  border-radius: 20%;
+}
+/* Main Index page */
+.container-index {
+  height: 200px;
+}
+.main-index {
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-between;
+  padding: 125px;
+  position: absolute;
+}
+.sargento {
+  margin-bottom: 100px;
+}
+.sargento:hover {
+  background-color: orange;
+  border-radius: 50%;
+}
+
+.triangulo {
+  width: 0;
+  height: 0;
+  border-left: 4.688rem solid transparent;
+  border-right: 4.688rem solid transparent;
+  border-bottom: 6.563rem solid rgba(0, 0, 0, 0.623);
+}
+.triangulo:hover {
+  transition: 10s;
+  transform: scale(3);
+}
+
+/* Main Challenge page */
+
+h1 {
+  color: aliceblue;
+  text-align: center;
+  /* font-size: large; */
+}
+.rectangle {
+  background-color: rgba(250, 235, 215, 0.281);
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 90%;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.grids {
+  align-items: center;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+button {
+  border: none;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+  justify-self: center;
+}
+.card-img {
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  -webkit-animation: rotate-vert-center 0.5s
+    cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+    both;
+}
+
+@-webkit-keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+@keyframes rotate-vert-center {
+  0% {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+/* Footer inicia */
+footer {
+  width: 90%;
+  margin-top: 250px;
+  margin-left: 5%;
+  display: flex;
+  position: relative;
+}
+.contact {
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: center;
+  border-radius: 20%;
+  background-color: rgba(250, 235, 215, 0.673);
+  font-size: small;
+}
+
+.rank {
+  width: 100%;
+  margin-bottom: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.rank-2:hover {
+  text-decoration: none;
+}
+
+.social-media {
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: center;
+  background-color: rgba(250, 235, 215, 0.673);
+  border-radius: 20%;
+}
+.footer-challenge {
+  margin-top: auto;
+}
+
+@media (max-width: 730px) {
+  .main-index {
+    margin-top: 100px;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 0px;
+  }
+  .sargento {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 580px) {
+  .rank {
+    display: none;
+  }
+}
